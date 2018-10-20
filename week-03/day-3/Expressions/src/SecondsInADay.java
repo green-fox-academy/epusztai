@@ -9,6 +9,5 @@ public class SecondsInADay {
 
         int a = (24*60*60)-((h*60*60)+(m*60)+s);
         System.out.println(a);
-
     }
 }

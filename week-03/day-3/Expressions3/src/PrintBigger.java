@@ -12,6 +12,5 @@ public class PrintBigger {
 
         if (number2 > number)
             System.out.println(number2);
-
     }
 }

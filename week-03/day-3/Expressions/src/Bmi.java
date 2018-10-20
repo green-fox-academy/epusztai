@@ -9,4 +9,3 @@ public class Bmi {
             // Print the Body mass index (BMI) based on these values
         }
     }
-

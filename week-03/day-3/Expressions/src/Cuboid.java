@@ -23,9 +23,5 @@ public class Cuboid {
         double  area=(2*((l*b)+(b*h)+(h*l)));
 
         System.out.println("Total Surface Area:" +area);
-
-
-
     }
 }
-

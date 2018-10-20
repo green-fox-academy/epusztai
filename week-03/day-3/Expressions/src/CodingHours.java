@@ -24,7 +24,5 @@ public class CodingHours {
         double g = (510. / 884);
 
         System.out.println((g*100)+(" %"));
-
     }
 }
-

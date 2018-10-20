@@ -10,6 +10,5 @@ public class HumptyDumpty {
         System.out.println("All the king's horses and all the king's men");
 
         System.out.println("Couldn't put Humpty together again.");
-
     }
 }

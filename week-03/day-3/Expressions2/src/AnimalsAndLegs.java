@@ -10,12 +10,8 @@ public class AnimalsAndLegs {
             System.out.println("Please enter the number of pigs own by the farmer:");
             int userInput2 = scanner.nextInt();
 
-            int legs = userInput1*2 + userInput2*4; //The number of the legs
+            int legs = userInput1 * 2 + userInput2 * 4; //The number of the legs
 
             System.out.println("The number of the legs " + legs);
-
-
-
         }
     }
-

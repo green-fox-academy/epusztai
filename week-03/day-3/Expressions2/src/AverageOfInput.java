@@ -14,6 +14,5 @@ public class AverageOfInput {
         int sum = userInput1 + userInput2 + userInput3 + userInput4 + userInput5;
         int average = sum / 5;
         System.out.println("Sum: " + sum + " Average: " + average);
-
     }
 }

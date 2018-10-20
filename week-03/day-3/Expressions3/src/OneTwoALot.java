@@ -14,6 +14,5 @@ public class OneTwoALot {
             System.out.println(number + " Two");
         if (number >= 2)
             System.out.println(number + " A lot");
-
     }
 }

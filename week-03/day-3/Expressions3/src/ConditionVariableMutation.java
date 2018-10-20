@@ -31,9 +31,9 @@ public class ConditionVariableMutation {
         } else if ((credits < 50) && (isBonus == false)) {
             c -= 1;
         }
-
         System.out.println(c);
 
+        //4.
         int d = 8;
         int time = 120;
         String out3 = "";
@@ -51,9 +51,3 @@ public class ConditionVariableMutation {
         }
     }
 }
-
-
-
-
-
-

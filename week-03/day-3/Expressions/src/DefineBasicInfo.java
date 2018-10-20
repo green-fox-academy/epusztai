@@ -13,7 +13,5 @@ public class DefineBasicInfo {
 
             boolean marriedOrNot = true;
             System.out.println(marriedOrNot);
-
-
         }
     }
