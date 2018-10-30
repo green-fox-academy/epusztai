@@ -7,7 +7,7 @@ public class Reverse {
         for (int i = 0; i < reverse.length; i++) {
             reverse[i] = aj[aj.length - 1 - i];
 
-            System.out.println(reverse[i]);
+            System.out.print(reverse[i] + ", ");
         }
     }
 }
