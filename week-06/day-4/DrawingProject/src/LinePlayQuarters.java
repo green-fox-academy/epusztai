@@ -3,15 +3,27 @@ import java.awt.*;
 
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
-public class LinePlay {
+public class LinePlayQuarters {
     public static void mainDraw(Graphics graphics) {
 
         int step = 20;
+        int x = WIDTH / 2;
+        int y = HEIGHT / 2;
+
         graphics.setColor(Color.GREEN);
 
-        for (int i = 0; i < 16; i++) {
-            drawGreenLines(0, step + i * step, step + i * step, HEIGHT, graphics);
-            drawPurpleLines(step + i * step, 0, WIDTH, step + i * step, graphics);
+        for (int i = 0; i < 15; i++) {
+            drawGreenLines(0, step + i * step / 2, step + i * step / 2, y, graphics);
+            drawPurpleLines(step + i * step / 2, 0, x, step + i * step / 2, graphics);
+
+            drawGreenLines(x, step + i * step / 2, step + i * step / 2 + x, y, graphics);
+            drawPurpleLines(step + i * step / 2 + x, 0, 2 * x, step + i * step / 2, graphics);
+
+            drawGreenLines(0, step + i * step / 2 + y, step + i * step / 2, 2 * y, graphics);
+            drawPurpleLines(step + i * step / 2, y, x, step + i * step / 2 + y, graphics);
+
+            drawGreenLines(x, step + i * step / 2 + y, step + i * step / 2 + x, 2 * y, graphics);
+            drawPurpleLines(step + i * step / 2 + x, y, 2 * x, step + i * step / 2 + y, graphics);
         }
     }
 
@@ -26,6 +38,7 @@ public class LinePlay {
     }
 
     // Don't touch the code below
+
     static int WIDTH = 320;
     static int HEIGHT = 320;
 
