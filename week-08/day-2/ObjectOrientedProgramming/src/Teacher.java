@@ -1,13 +1,13 @@
 public class Teacher {
     String name;
     String subject;
-    int answeredQuestions;
+    int ansQuestions;
     int material;
 
     public Teacher(String name, String subject) {
         this.name = name;
         this.subject = subject;
-        answeredQuestions = 0;
+        ansQuestions = 0;
         material = 0;
     }
 
@@ -17,7 +17,7 @@ public class Teacher {
     }
 
     public void answer() {
-        answeredQuestions++;
+        ansQuestions++;
     }
 
     @Override
@@ -25,7 +25,7 @@ public class Teacher {
         return "Teacher{" +
                 "name='" + name + '\'' +
                 ", subject='" + subject + '\'' +
-                ", answeredQuestions=" + answeredQuestions +
+                ", answeredQuestions=" + ansQuestions +
                 ", material=" + material +
                 '}';
     }
