@@ -16,6 +16,7 @@ public class Helicopter extends Vehicle implements Flyable {
 
     @Override
     public void fly() {
+        System.out.println(getType() + " flies high with its propeller powered by engines.");
 
     }
 
@@ -23,6 +24,7 @@ public class Helicopter extends Vehicle implements Flyable {
     public void takeOff() {
 
     }
+
     @Override
     public String toString() {
         return getType();

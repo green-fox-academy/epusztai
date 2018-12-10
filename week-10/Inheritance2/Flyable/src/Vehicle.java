@@ -3,13 +3,13 @@ public abstract class Vehicle {
     private String color;
     private int weight;
 
-    public Vehicle (String type, String color, int weight) {
+    public Vehicle(String type, String color, int weight) {
         this.type = type;
         this.color = color;
         this.weight = 1000;
     }
 
-    public String getType () {
+    public String getType() {
         return type;
     }
 
@@ -18,7 +18,6 @@ public abstract class Vehicle {
     }
 
     public int getWeight() {
-       return weight;
-
+        return weight;
     }
 }
