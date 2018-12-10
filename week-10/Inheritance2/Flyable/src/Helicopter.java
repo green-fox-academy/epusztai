@@ -5,6 +5,11 @@ public class Helicopter extends Vehicle implements Flyable {
     }
 
     @Override
+    public String getType() {
+        return super.getType();
+    }
+
+    @Override
     public void land() {
 
     }
@@ -17,5 +22,9 @@ public class Helicopter extends Vehicle implements Flyable {
     @Override
     public void takeOff() {
 
+    }
+    @Override
+    public String toString() {
+        return getType();
     }
 }

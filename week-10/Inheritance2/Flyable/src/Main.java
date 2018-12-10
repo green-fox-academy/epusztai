@@ -1,17 +1,19 @@
+import animals.Animal;
+
 public class Main {
     public static void main(String[] args) {
 
-        Bird redbreast = new Bird("redbreast");
-        Helicopter hawker = new Helicopter("hawker seahawk", "green", 1000);
+        Bird robin = new Bird("redbreast");
+        Helicopter hawker = new Helicopter("Hawker Seahawk", "green", 1000);
 
-        System.out.println(redbreast);
-        redbreast.fly();
-        redbreast.land();
+        System.out.println(robin);
+        robin.fly();
+        robin.land();
+        robin.takeOff();
 
+        System.out.println(hawker);
         hawker.fly();
         hawker.land();
-
-        hawker.fly();
-        hawker.land();
+        hawker.takeOff();
     }
 }

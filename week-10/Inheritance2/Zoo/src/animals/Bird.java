@@ -7,6 +7,10 @@ public class Bird extends Animal {
         super(name);
     }
 
+    public void fly() {
+        System.out.println(getName() + " flies high.");
+    }
+
     @Override
     public String getName() {
         return name;
